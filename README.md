@@ -24,15 +24,15 @@ Key Features:
 
 Secret Express stands out as a simple yet robust solution for node health management in clusters. Its battle-tested nature in high-load environments and adaptable framework make it a dependable and versatile tool in a wide range of operational scenarios.
 
-**Expanded Future Development and Enhancements for Secret Express**
+**Expanded Future Development and Enhancements for Secret Express or Companion Applications**
 
 Secret Express, in its journey to enhance cluster node health management, is considering a range of improvements and new features. These developments aim to augment the application's efficiency, adaptability, and overall functionality.
 
 1. **Transition to Web Socket-Based Health Checks**: Currently, Secret Express allows configurable frequency for health checks. A future enhancement being contemplated is the implementation of health checks using Web sockets. This would enable real-time, continuous monitoring of node health. However, considering that block times are generally above six seconds each, the immediate incentive to switch to Web sockets might not be compelling. The transition would nonetheless offer improved responsiveness and precision in health monitoring over the long term or for scenarios where hundreds of nodes are in the cluster.
 
-2. **Auto Repair Functionality Integration**: The application is looking to integrate an auto repair feature to automatically resolve issues in individual nodes using predefined solutions. This would minimize manual intervention, enhancing the clusters efficiency and reliability.
+2. **Auto Repair Functionality Integration**: The application is looking to integrate an auto repair feature to automatically resolve issues in individual nodes using predefined solutions. This would minimize manual intervention, enhancing the clusters efficiency and reliability. [Read more here](https://github.com/DeltaFlyerLLC/ExpressAutoRepair).
 
-3. **Advanced Caching Strategies**: Incorporating advanced caching mechanisms is also on the horizon. This feature aims to reduce the load on clusters, focusing on effective management and portability of cached data from archive nodes, thereby improving performance and scalability.
+3. **Advanced Caching Strategies**: Incorporating advanced caching mechanisms is also on the horizon. This feature aims to reduce the load on clusters, focusing on effective management and portability of cached data from archive nodes, thereby improving performance and scalability. [Read more here](https://github.com/DeltaFlyerLLC/ExpressCache/)
 
 4. **Support for a Wider Range of Load Balancers**: Plans include extending support to other widely-used load balancers like Nginx. This expansion would make Secret Express more versatile, allowing for easy integration with various load balancing tools, accommodating diverse cluster environments.
 
