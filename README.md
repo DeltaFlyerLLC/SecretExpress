@@ -49,7 +49,7 @@ Permissive license choice for “Secret Express”
 
 https://www.gnu.org/licenses/agpl-3.0.en.html
 
-**Note: any deployment of this software that includes modifications of any kind, must explicity be open sourced and made publicly available under this same license. This has no exception.**
+**Note: Any deployment of this software over a network that includes modifications must explicitly be open sourced and made publicly available under this same license, in accordance with the AGPL's requirements. This applies when the modified software is distributed or used to provide network services."**
 
 The Affero General Public License (AGPL) is an open-source license that has a strong focus on network use of licensed software. Here's a summary of its key aspects:
 
